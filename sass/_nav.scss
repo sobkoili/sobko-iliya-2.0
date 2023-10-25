@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+
+}
+.nav{
+   &__list{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+   }
+   &__link{
+    text-decoration: none;
+    color: #85AAAB;
+    font-size: 18px;
+    &_active{
+        color: #6DE1E3;
+        border-bottom: 2px solid currentColor;
+    
+       }
+   }
+
+
+}
