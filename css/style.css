@@ -470,6 +470,7 @@ body {
   grid-column: 4/5;
 }
 .about__title {
+  width: 254px;
   margin-bottom: 15px;
   font-size: 36px;
 }
