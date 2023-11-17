@@ -1,0 +1,35 @@
+.review{
+    display: flex;
+    flex-wrap: wrap;
+   flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 63px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+   &_item{
+ 
+    
+   }
+   &_wrapper{
+   text-align: center;
+
+   
+    font-size: 18px;
+    padding-top: 50px;
+    
+   }
+  
+   
+   &_desc{
+   
+    width: 600px;
+   
+    
+    font-size: 16px;
+   
+   }
+   
+
+}
