@@ -1,6 +1,6 @@
 .center{
-    padding-left: calc(50vw - 720px);
-    padding-right: calc(50vw - 720px);
+    padding-left: calc(50vw - 600px);
+    padding-right: calc(50vw - 595px);
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Oswald';
@@ -12,3 +12,9 @@ body{
     box-sizing: border-box ;
 }
 
+@media screen and (max-with: 1200px) {
+    .center{
+        padding-left: calc(50vw - 360px);
+        padding-right: calc(50vw - 360px);
+    }
+}
